@@ -1,8 +1,8 @@
 {
-  "name": "typescript",
+  "name": "tsweb",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "TypeScript + Webpack environment",
+  "main": "index.ts",
   "scripts": {
     "dev": "webpack-dev-server --config ./build/webpack.dev.conf.js",
     "build": "webpack --config ./build/webpack.build.conf.js",
@@ -41,10 +41,8 @@
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "mini-css-extract-plugin": "^0.8.0",
-    "normalize.css": "^8.0.1",
     "path": "^0.12.7",
     "postcss-loader": "^3.0.0",
-    "reset-css": "^5.0.1",
     "source-map-loader": "^0.2.4",
     "style-loader": "^1.0.0",
     "ts-loader": "^6.2.1",
