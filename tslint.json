@@ -8,6 +8,7 @@
     "no-unused-expression":  [true, "allow-fast-null-checks", "allow-new"],
     "variable-name": false,
     "trailing-comma": false,
+    "ordered-imports":false,
     "one-variable-per-declaration": false,
     "no-magic-numbers": true,
     "quotemark": [true, "single"],
