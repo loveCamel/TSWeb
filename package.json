@@ -5,6 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "dev": "webpack-dev-server --config ./build/webpack.dev.conf.js",
+    "dev:local": "webpack-dev-server --host 0.0.0.0 --config ./build/webpack.dev.conf.js",
     "build": "webpack --config ./build/webpack.build.conf.js",
     "lint": "tslint -c tslint.json -o ./_tslint_logs.txt 'src/**/*.ts'"
   },
